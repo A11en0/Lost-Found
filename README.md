@@ -1,17 +1,16 @@
-# Lost-Found
+# Lost-Found 软件开发计划书
 A web lost and found system,which face to university.
-
-
-#软件开发计划书
 
 [TOC]
 
 **项目名称:跨平台失物招领系统**
 **日期:2018-5-10**
+
 ###技术栈
 - Web端采用Django1.8+mysql,对不同设备进行适配
 - 使用Nginx负载均衡,方便将请求分发至个服务器,并进行单个服务器调试
 - 后期开发小程序版
+
 ###预期实现功能清单:
 - 主页面(简洁至上)
   - 最新动态
@@ -40,7 +39,7 @@ A web lost and found system,which face to university.
   - 根据用户的经验值来生成排行榜
 - 用户个人页面
   - 修改个人信息|密码等
-  	 查看|删除|修改|发布物品,处理申领(	我的发布|申领管理|我的申领);
+  	 查看|删除|修改|发布物品,处理申领(我的发布|申领管理|我的申领);
 - 后台管理页面
   - 用户管理
   - 发布管理
@@ -48,7 +47,9 @@ A web lost and found system,which face to university.
 ###数据库设计
 - 绘制ER图
 - 建表
+
 ###任务分工
 - 暂时未定
+
 ###时间安排
 - 2017-2018学年后八周
