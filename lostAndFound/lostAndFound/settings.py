@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.8/ref/settings/
 """
 
+# allen/gyh201727
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 
@@ -27,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+AUTH_USER_MODEL = 'mysite.User'
 # Application definition
 
 INSTALLED_APPS = (
@@ -37,6 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'showDetail',
+    'mysite',
 )
 
 MIDDLEWARE_CLASSES = (
